@@ -1,0 +1,47 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(3, 152, 158, 0.675) -3.88%, rgba(19, 185, 190, 0) 100%, rgba(10, 166, 172, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass{
+    background: whitesmoke;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+
+    border: black;
+    border-radius: 2rem;
+
+    display:flex;
+}
+
+.circles1,.circles2{
+    background-color: whitesmoke;
+    background: linear-gradient(to right bottom, 
+    rgba(255,255,255,0.9),
+    rgba(255,255,255,0.1));
+
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+}
+
+label {
+        display: block;
+        font: .9rem 'Fira Sans', sans-serif;
+    }
+    
+    input[type='submit'],
+    label {
+        margin-top: 1rem;
+    }
